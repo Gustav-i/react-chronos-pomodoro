@@ -24,7 +24,7 @@ export function MainRouter()
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/react-chronos-pomodoro' element={<Home />} />
         <Route path='/history/' element={<History />} />
         <Route path='/settings/' element={<Settings />} />
         <Route path='/about-pomodoro/' element={<AboutPomodoro />} />
